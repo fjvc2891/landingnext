@@ -45,10 +45,10 @@ const Footer = () => {
               <div className="col-lg-3">
                 <h6 className="title">Oficinas</h6>
                 <ul className="listWrapper">
-                  <li className="item">Booston town, Austria</li>
-                  <li className="item">Phone: 84667441</li>
-                  <li className="item">Office Time: 10AM- 5PM</li>
-                  <li className="item">Email: demo@example.com</li>
+                  <li className="item">Pasto-Nariño</li>
+                  <li className="item">Celular: 3507339816 – 3242441287 </li>
+                  <li className="item">Horario: 8AM- 6PM</li>
+                  <li className="item">Email: iurislexsas@gmail.com</li>
                 </ul>
               </div>              
               <div className="col-lg-3">
