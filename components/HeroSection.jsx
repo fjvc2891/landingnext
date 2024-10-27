@@ -52,10 +52,10 @@ const HeroSection = () => {
               <div className="col-lg-12">
                 <NavbarWithDropDown />
                 <div className="herosectionWrapperContent">
-                  <h2>
-                  " Seguridad jurídica
-                  especializada" <br /> Asesoría Jurídica Especializada para tu Empresa.
-                    </h2>
+                <h2>
+  &quot;Seguridad jurídica especializada&quot; <br /> Asesoría Jurídica Especializada para tu Empresa.
+</h2>
+
                   <p>OFICINAS  EN  COLOMBIA Y ECUADOR</p>
                   <button
                     onClick={() => router.push("/consultancy-form")}
