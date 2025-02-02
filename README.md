@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este es un proyecto Next.js iniciado con create-next-app.
 
-## Getting Started
+Comenzando
 
-First, run the development server:
+Primero, ejecuta el servidor de desarrollo:
 
-```bash
 npm run dev
-# or
+# o
 yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre http://localhost:3000 en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Puedes comenzar a editar la página modificando pages/index.js. La página se actualizará automáticamente a medida que edites el archivo.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Las rutas de la API se pueden acceder en http://localhost:3000/api/hello. Este endpoint se puede editar en pages/api/hello.js.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+El directorio pages/api está mapeado a /api/*. Los archivos en este directorio se tratan como rutas de API en lugar de páginas de React.
 
-## Learn More
+Configuración de Docker
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto incluye una configuración de Docker para facilitar su implementación.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Archivos incluidos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Dockerfile: Define el entorno y el proceso de construcción.
 
-## Deploy on Vercel
+docker-compose.yml: Administra la ejecución del contenedor.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+.dockerignore: Excluye archivos innecesarios del contenedor.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ejecutar con Docker:
+
+Construir la imagen de Docker
+
+docker build -t landingnext .
+
+Ejecutar el contenedor
+
+docker run -p 3000:3000 landingnext
+
+(Opcional) Ejecutar usando Docker Compose
+
+docker-compose up --build
+
+Aprende más
+
+Para obtener más información sobre Next.js, consulta los siguientes recursos:
+
+Documentación de Next.js - aprende sobre las características y API de Next.js.
+
+Aprende Next.js - un tutorial interactivo de Next.js.
+
+Puedes revisar el repositorio de Next.js en GitHub - tus comentarios y contribuciones son bienvenidos.
+
+Implementar en Vercel
+
+La forma más fácil de implementar tu aplicación Next.js es usar la Plataforma Vercel de los creadores de Next.js.
+
+Consulta nuestra documentación de implementación de Next.js para más detalles.
+
