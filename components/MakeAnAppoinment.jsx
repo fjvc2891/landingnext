@@ -65,7 +65,7 @@ const MakeAnAppoinment = () => {
 
             {/* Icono Facebook */}
             <a
-              href="https://www.facebook.com/TU_PAGINA"
+              href="https://www.facebook.com/profile.php?id=61568603487034"
               target="_blank"
               rel="noopener noreferrer"
               className="btn__icon"
