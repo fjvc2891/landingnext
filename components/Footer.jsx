@@ -45,9 +45,8 @@ const Footer = () => {
               <div className="col-lg-3">
                 <h6 className="title">Oficinas</h6>
                 <ul className="listWrapper">
-                  <li className="item">Pasto-Nariño</li>
-                  <li className="item">Celular: 3207060136 </li>
-                  <li className="item">Horario: 8AM- 6PM</li>
+                  <li className="item">Colombia Ecuador</li>
+                  <li className="item">Celular: +573507339816 </li>                  
                   <li className="item">Email: iurislexsas@gmail.com</li>
                 </ul>
               </div>              

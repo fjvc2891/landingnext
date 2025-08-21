@@ -2,21 +2,21 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 
-const TestimonialCard = () => {
+const TestimonialCard = ({ quote, name, location, image }) => {
   return (
     <>
       <div className="testmonialCard">
         <style jsx>{`
           .testmonialCard__icon {
             color: #c9b38c;
-            font-size: 40px;
+            font-size: 30px;
           }
           .testmonialCard__quote {
             margin: 10px 0px;
           }
           .testmonialCard__quote p {
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 400; /* Corregido */
             text-transform: capitalize;
             font-family: "Roboto", sans-serif;
             color: #79859f;
@@ -27,12 +27,12 @@ const TestimonialCard = () => {
             align-items: center;
           }
           .testmonialCard__user__img {
-            height: 60px;
-            width: 60px;
-            margin-right: 15px;
+            height: 70px;
+            width: 70px;
+            margin-right: 10px;
           }
           .testmonialCard__user__img img {
-            border-radius: 50%;
+            border-radius: 50%; /* Cambiado a 50% para mantener círculo perfecto */
           }
           .testmonialCard__user__title h6 {
             font-size: 16px;
@@ -55,25 +55,15 @@ const TestimonialCard = () => {
           <FaQuoteLeft />
         </div>
         <div className="testmonialCard__quote">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
-            placeat ab modi iusto amet libero inventore illum recusandae ea
-            saepe magni, temporibus doloribus repellat est incidunt quibusdam
-            possimus unde error.
-          </p>
+          <p>{quote}</p>
         </div>
         <div className="testmonialCard__user">
           <div className="testmonialCard__user__img">
-            <img
-              src="/image/user.jpg"
-              alt="User Image"
-              height={"100%"}
-              width={"100%"}
-            />
+            <img src={image} alt="User Image" height="100%" width="100%" />
           </div>
           <div className="testmonialCard__user__title">
-            <h6>Ashadul Mridha</h6>
-            <p>Frontend Developer</p>
+            <h6>{name}</h6>
+            <p>{location}</p>
           </div>
         </div>
       </div>

@@ -1,8 +1,28 @@
-import React from 'react';
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import modules
 import { Pagination } from "swiper";
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from "./TestimonialCard";
+
+const testimonials = [
+  {
+    quote: "Muy buen servicio, recomendado",
+    name: "Tecnoquimicas",
+    location: "Pasto",
+    image: "/image/user.jpg",
+  },
+  {
+    quote: "Excelente servicio y calidad",
+    name: "Empresa",
+    location: "Bogotá",
+    image: "/image/user2.jpg",
+  },
+  {
+    quote: "Innovación en cada producto",
+    name: "Empresa",
+    location: "Medellín",
+    image: "/image/user3.jpg",
+  },
+];
 
 const TestimonialSlider = ({ pagination }) => {
   return (
@@ -24,24 +44,16 @@ const TestimonialSlider = ({ pagination }) => {
         pagination={pagination}
         modules={[Pagination]}
       >
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
+        {testimonials.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <TestimonialCard
+              quote={testimonial.quote}
+              name={testimonial.name}
+              location={testimonial.location}
+              image={testimonial.image}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
