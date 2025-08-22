@@ -10,7 +10,7 @@ function NavbarWithDropDown() {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="/image/logo.png"
+            src="/image/iurisa.png"
             alt="logo image"
             height={"180px"}
             width={"180px"}

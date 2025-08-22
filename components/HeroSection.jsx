@@ -81,13 +81,15 @@ const HeroSection = () => {
                   &quot;Seguridad jurídica especializada&quot; <br /> Asesoría Jurídica Especializada para tu Empresa.
                   </h2>
                   <p>OFICINAS EN COLOMBIA Y ECUADOR</p>
-                  <button
-                    onClick={() => router.push("/consultancy-form")}
-                    className="btn__primary"
-                  >
-                    Envía una Consulta
-                  </button>
-                </div>
+                  {/*
+                        <button
+                          onClick={() => router.push("/consultancy-form")}
+                          className="btn__primary"
+                        >
+                          Ir al formulario
+                        </button>
+                  */}
+            </div>
               </div>
             </div>
           </div>
