@@ -54,14 +54,8 @@ const MakeAnAppoinment = () => {
           {/* Contenedor de íconos en horizontal */}
           <div className="social-icons">
             {/* Icono WhatsApp */}
-            <a
-              href="https://wa.me/573507339816"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn__icon"
-            >
-              <img src="/image/whatsapp.png" alt="WhatsApp" />
-            </a>
+            
+
 
             {/* Icono Facebook */}
             <a
