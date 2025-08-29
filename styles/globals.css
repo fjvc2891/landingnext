@@ -98,3 +98,17 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+.heroBackground {
+  background: url("/image/hero-bg-img.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 80px; /* 👈 añade altura al fondo */
+}
+
+.heroAndLawBg {
+  background: url("/image/hero-bg-img.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+

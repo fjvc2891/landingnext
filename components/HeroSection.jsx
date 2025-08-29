@@ -12,7 +12,7 @@ const HeroSection = () => {
           <style jsx>{`
             .herosectionWrapper {
               background-image: url("/image/hero-bg-img.jpg");
-              height: 90vh;
+              height: 80vh;
               background-attachment: fixed;
               background-repeat: no-repeat;
               background-position: center top;
@@ -31,7 +31,7 @@ const HeroSection = () => {
               font-size: 3.5rem;
               font-weight: 400;
               color: #fff;
-              text-transform: capitalize;
+              text-transform: none;
               font-family: "Roboto", sans-serif;
               margin: 0;
             }
@@ -78,7 +78,7 @@ const HeroSection = () => {
                 <NavbarWithDropDown />
                 <div className="herosectionWrapperContent">
                   <h2>
-                  &quot;Seguridad jurídica especializada&quot; <br /> Asesoría Jurídica Especializada para tu Empresa.
+                  &quot;Seguridad jurídica especializada&quot; <br /> Asesoría jurídica especializada para tu empresa.
                   </h2>
                   <p>OFICINAS EN COLOMBIA Y ECUADOR</p>
                   {/*
