@@ -12,16 +12,35 @@ const testimonials = [
   },
   {
     quote: "Excelente servicio y calidad",
-    name: "Empresa",
-    location: "Bogotá",
-    image: "/image/user2.jpg",
-  },
+    name: "Megatecnologia S.A.S",
+    location: "Cali",
+    image: "/image/mega.jpg",
+  },  
   {
-    quote: "Innovación en cada producto",
-    name: "Empresa",
-    location: "Medellín",
-    image: "/image/user3.jpg",
-  },
+    quote: "Excelente servicio y calidad",
+    name: "Vitalmedica S.A.S",
+    location: "Cali",
+    image: "/image/vitalmedical.jpg",
+  },  
+    {
+    quote: "Excelente servicio y calidad",
+    name: "Mueses ascesoria y consultoria en calidad",
+    location: "Pasto",
+    image: "/image/mueses.png",
+  },  
+      {
+    quote: "Excelente servicio y calidad",
+    name: "Lavrestak",
+    location: "Guayaquil, Ecuador",
+    image: "/image/labrestak.jpg",
+  },  
+        {
+    quote: "Excelente servicio y calidad",
+    name: "Atzilut S.A.S",
+    location: "Quito, Ecuador",
+    image: "/image/atzilut.jpg",
+  },  
+
 ];
 
 const TestimonialSlider = ({ pagination }) => {

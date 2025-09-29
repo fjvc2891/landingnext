@@ -35,17 +35,14 @@ const Footer = () => {
               <div className="col-lg-4">
                 <h6 className="title">Sobre Nosotros</h6>
                 <p className="item">
-                Asesoría y representación de entidades y empresas
-                ante autoridades derivado de investigaciones y
-                procesos administrativos sancionatorios;
-                Corponariño, Procuraduría regional de Nariño,
-                Ministerio del Trabajo,
+                Asesoría especializada en el ambito juridico y empresarial.
                 </p>
               </div>
               <div className="col-lg-3">
                 <h6 className="title">Oficinas</h6>
                 <ul className="listWrapper">
-                  <li className="item">Colombia Ecuador</li>
+                  <li className="item">Colombia: Calle 21 #22-09 Edificio JR oficina 305, Pasto - Nariño</li>
+                  <li className="item">Ecuador: Barbara Esparza Cs-18 y Manuela Garaycoa apto 202C conjunto Santa fe, Quito -Ecuador</li>
                   <li className="item">Celular: +573507339816 </li>                  
                   <li className="item">Email: iurislexsas@gmail.com</li>
                 </ul>
@@ -54,18 +51,14 @@ const Footer = () => {
                 <h6 className="title">Areas</h6>
                 <ul className="listWrapper">
                   <li className="item">Derecho Laboral </li>
-                  <li className="item">Derecho Individual Y Colectivo</li>
-                  <li className="item">Derecho Ambiental</li>
-                  <li className="item">Derecho Constitucional</li>
+                  <li className="item">Derecho Individual Y Colectivo</li>                                    
                 </ul>
               </div>
               <div className="col-lg-2">
                 <h6 className="title"></h6>
                 <ul className="listWrapper">
-                  <li className="item">Derecho Disciplinario </li>
-                  <li className="item">Civil</li>
-                  <li className="item">Comercial</li>
-                  <li className="item">Migratorio</li>
+                  <li className="item">Derecho Disciplinario </li>                  
+                  <li className="item">Societario y Tramites Regularios</li>                  
                 </ul>
               </div>
             </div>

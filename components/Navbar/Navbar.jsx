@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 function NavbarWithDropDown() {
   return (
     <>
-      <Navbar className="navbarHeader py-2" expand="lg" variant="dark">
+      <Navbar className="navbarHeader py-2" expand="lg">
         <Container className="navbarContainer">
           {/* LOGO */}
           <Navbar.Brand href="#home" className="brandCenter">
@@ -51,18 +51,16 @@ function NavbarWithDropDown() {
       <style jsx>{`
         /* --- BASE --- */
         .navbarHeader {
-          background: transparent; /* se mezcla con tu hero; ajusta si quieres sólido */
+          background: transparent;
         }
         .navbarContainer {
           position: relative;
-          min-height: 88px; /* asegura espacio para logo grande en móvil */
+          min-height: 88px;
         }
         .brandLogo {
-          height: 140px; /* ✅ grande y claro en móvil */
+          height: 140px;
           width: auto;
         }
-
-        /* centramos el logo en móvil */
         .brandCenter {
           position: absolute;
           left: 50%;
@@ -71,64 +69,65 @@ function NavbarWithDropDown() {
           margin: 0;
           padding: 0;
         }
-
-        /* botón hamburguesa visible y con estilo */
         .navbarToggleCustom {
           position: absolute;
           right: 14px;
           top: 18px;
           padding: 8px 10px;
           border-radius: 12px;
-          border: 1px solid rgba(255, 255, 255, 0.6);
-          background: rgba(0, 0, 0, 0.25);
+          border: 1px solid rgba(0, 0, 0, 0.6);
+          background: rgba(255, 255, 255, 0.25);
         }
-        /* icono hamburguesa blanco y más visible */
         .navbarToggleCustom .navbar-toggler-icon {
-          background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,255,255,0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+          background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
           width: 1.75rem;
           height: 1.75rem;
         }
 
-        /* desplegable: fondo legible en móvil */
-        .collapseCustom {
-          /* en móvil, hacemos panel completo bajo el navbar */
+        /* --- LINKS (GLOBAL) --- */
+        :global(.navbar .nav-link.navbarHeader__item) {
+          color: #000 !important; /* negro */
+          transition: color 0.2s ease;
         }
+        :global(.navbar .nav-link.navbarHeader__item:hover) {
+          color: #007b5e !important; /* verde al pasar */
+        }
+
+        /* --- MOBILE --- */
         @media (max-width: 991.98px) {
           .collapseCustom {
             position: absolute;
             top: 100%;
             left: 0;
             right: 0;
-            background: rgba(0, 0, 0, 0.75);
-            backdrop-filter: blur(4px);
+            background: rgba(255, 255, 255, 0.95);
             padding: 12px 8px 16px;
             border-bottom-left-radius: 12px;
             border-bottom-right-radius: 12px;
           }
           .navbarHeader__item {
-            color: #fff !important;
             padding: 10px 12px;
             font-size: 1.05rem;
+            color: black;
           }
         }
 
-        /* --- ESCRITORIO (>= 992px) --- */
+        /* --- DESKTOP --- */
         @media (min-width: 992px) {
           .brandCenter {
-            position: static;   /* vuelve a su lugar natural */
+            position: static;
             transform: none;
           }
           .brandLogo {
-            height: 90px;       /* tamaño cómodo en desktop */
+            height: 90px;
           }
           .navbarToggleCustom {
-            display: none;      /* no mostramos hamburguesa en desktop */
+            display: none;
           }
           .navbarHeader {
-            background: rgba(0, 0, 0, 0.35); /* opcional: mejora contraste sobre el hero */
+            background: rgba(255, 255, 255, 0.8);
           }
           .navbarHeader__item {
-            color: #fff !important;
             margin-left: 10px;
           }
         }

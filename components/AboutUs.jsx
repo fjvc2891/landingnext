@@ -15,24 +15,24 @@ const AboutUs = () => {
     };
     const data = [
       {
-        title: "DERECHO DISCIPLINARIO",
-        desc: "Procesos disciplinarios que sustancien oficinas de Control Interno y Disciplinario. Procesos disciplinarios ante el Consejo Profesional Nacional de Ingeniería (COPNIA).",
+        title: "DERECHO PENAL Y DISCIPLINARIO",
+        desc: "Asuntos penales y disciplinarios en general.",
         icon: <GiClawHammer size={45} />,
       },
       {
-        title: "INDIVIDUAL Y COLECTIVO",
+        title: "DERECHO LABORAL INDIVIDUAL Y COLECTIVO",
         desc: "Todo lo relacionado con accidentes de Trabajo. Asesoría en las rutas de manejo y aplicación del S.S.S.T de trabajadores en situación de discapacidad o bajo fuero de estabilidad laboral reforzada.",
         icon: <MdFamilyRestroom size={45} />,
       },
       {
-        title: "Derecho Laboral",
-        desc: "Recobro de incapacidades de origen común y laboral ante ARL, EPS y fondos pensionales. Asesoría en reconocimiento de incapacidades para empleadores. ",
+        title: "PENSIONES",
+        desc: "Tramites pensionales, calculos actuariales, revisión de historia laboral. ",
         icon: <VscLaw size={45} />,
       },
 
       {
-        title: "DERECHO AMBIENTAL",
-        desc: "Defensa y representación en acciones constitucionales; acción de tutela, acción popular entre otras. Defensa y representación en acciones constitucionales derivado de relaciones laborales.",
+        title: "ECUADOR DERECHO SOCIETARIO Y TRAMITES REGULATORIOS",
+        desc: "Constitución de compañias, desarrollo de proyectos empresariales, tramites regularios ante la ARCSA, asuntos de familia y adolecencia.",
         icon: <GiSkills size={45} />,
       },
     ];

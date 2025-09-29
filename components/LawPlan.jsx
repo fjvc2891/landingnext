@@ -60,11 +60,22 @@ const LawPlan = () => {
           <div className="col-lg-3">
             <div className="lawPlan__item">
               <div className="lawPlan__item__logo">
+                <MdOutlineLibraryBooks size={40}  />
+              </div>
+              <div className="lawPlan__item__content">
+                <p></p>
+                <h6>DERECHO lABORAL INDIVIDUAL Y COLECTIVO</h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className="lawPlan__item">
+              <div className="lawPlan__item__logo">
                 <MdOutlineLibraryBooks size={40} />
               </div>
               <div className="lawPlan__item__content">
-                <p>Derecho Ambiental</p>
-                <h6>Y Constitucional </h6>
+                <p></p>
+                <h6>PENSIONES, ASCESIORIA EN CONTRATACION ESTATAL Y SEGUROS</h6>
               </div>
             </div>
           </div>
@@ -74,8 +85,8 @@ const LawPlan = () => {
                 <MdOutlinePersonalInjury size={40}  />
               </div>
               <div className="lawPlan__item__content">
-                <p>Civil, Migratorio</p>
-                <h6>Contratacion Estatal</h6>
+                <p></p>
+                <h6>ECUADOR DERECHO SOCIETARIO Y TRAMITES REGULATORIOS</h6>
               </div>
             </div>
           </div>
@@ -85,22 +96,12 @@ const LawPlan = () => {
                 <MdOutlineSportsCricket size={40}  />
               </div>
               <div className="lawPlan__item__content">
-                <p>Derecho Discipliario</p>
-                <h6>y Comercial</h6>
+                <p></p>
+                <h6>DERECHO PENAL Y DISCIPLINARIO</h6>
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
-            <div className="lawPlan__item">
-              <div className="lawPlan__item__logo">
-                <MdOutlineLibraryBooks size={40}  />
-              </div>
-              <div className="lawPlan__item__content">
-                <p>Derecho Laboral</p>
-                <h6>Individual Y Colectivo</h6>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

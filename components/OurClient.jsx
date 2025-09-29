@@ -7,8 +7,7 @@ const OurClient = () => {
   const sectionTitle = {
     icon: <MdOutlineFormatQuote />,
     title: "Nuestra Sociedad",
-    subTitle: "Seguridad jurídica especializada",
-    desc: "Asesoría y representación de entidades y empresas ante autoridades derivado de investigaciones y procesos administrativos sancionatorios; Corponariño, Procuraduría regional de Nariño, Ministerio del Trabajo,",
+    desc: "Asesoría especializada en el ambito juridico y empresarial.",
   };
 
   const pagination = {
