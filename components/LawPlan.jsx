@@ -75,7 +75,7 @@ const LawPlan = () => {
               </div>
               <div className="lawPlan__item__content">
                 <p></p>
-                <h6>PENSIONES, ASCESIORIA EN CONTRATACION ESTATAL Y SEGUROS</h6>
+                <h6>PENSIONES, ASESIORIA EN CONTRATACION ESTATAL Y SEGUROS</h6>
               </div>
             </div>
           </div>
