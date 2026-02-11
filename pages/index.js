@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import LawPlan from "../components/LawPlan";
 import MakeAnAppoinment from "../components/MakeAnAppoinment";
+import Team from "../components/Team";
 import OurClient from "../components/OurClient";
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
         <LawPlan />
       </div>
 
-      <AboutUs />
-      {/*<ExpertAt />*/}
-      <OurClient />
-      <MakeAnAppoinment />
+      <AboutUs />      
+      <Team />
+      <OurClient />      
+      <MakeAnAppoinment />      
       <Footer />
     </>
   );

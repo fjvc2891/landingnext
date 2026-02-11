@@ -28,22 +28,26 @@ function NavbarWithDropDown() {
           {/* MENÚ */}
           <Navbar.Collapse id="primary-navbar" className="collapseCustom">
             <Nav className="ms-auto text-center text-lg-start">
-              <Nav.Link className="navbarHeader__item" href="#HeroSection">
-                Inicio
-              </Nav.Link>
-              <Nav.Link className="navbarHeader__item" href="#law-plan">
-                Nuestros Servicios
-              </Nav.Link>
-              <Nav.Link className="navbarHeader__item" href="#about-us">
-                Sobre Nosotros
-              </Nav.Link>
-              <Nav.Link className="navbarHeader__item" href="#OurClient">
-                Projects
-              </Nav.Link>
-              <Nav.Link className="navbarHeader__item" href="#MakeAnAppoinment">
-                Contacts
-              </Nav.Link>
-            </Nav>
+            <Nav.Link className="navbarHeader__item" href="#HeroSection">
+              Inicio
+            </Nav.Link>
+
+            <Nav.Link className="navbarHeader__item" href="#law-plan">
+              Servicios
+            </Nav.Link>
+
+            <Nav.Link className="navbarHeader__item" href="#team">
+              Equipo
+            </Nav.Link>
+
+            <Nav.Link className="navbarHeader__item" href="#OurClient">
+              Proyectos
+            </Nav.Link>
+
+            <Nav.Link className="navbarHeader__item" href="#MakeAnAppoinment">
+              Contacto
+            </Nav.Link>
+          </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

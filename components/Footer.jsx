@@ -19,8 +19,7 @@ const Footer = () => {
             }
             .item {
               font-size: 15px;
-              font-weight: 400;
-              text-transform: capitalize;
+              font-weight: 400;              
               font-family: "Roboto", sans-serif;
               color: #cdced0;
               margin-top: 10px;
@@ -35,7 +34,7 @@ const Footer = () => {
               <div className="col-lg-4">
                 <h6 className="title">Sobre Nosotros</h6>
                 <p className="item">
-                Asesoría especializada en el ambito juridico y empresarial.
+                En IURIS LEX S.A.S. estamos disponibles para acompañarlo en la toma de decisiones jurídicas estratégicas.
                 </p>
               </div>
               <div className="col-lg-3">
@@ -43,7 +42,7 @@ const Footer = () => {
                 <ul className="listWrapper">
                   <li className="item">Colombia: Calle 21 #22-09 Edificio JR oficina 305, Pasto - Nariño</li>
                   <li className="item">Ecuador: Barbara Esparza Cs-18 y Manuela Garaycoa apto 202C conjunto Santa fe, Quito -Ecuador</li>
-                  <li className="item">Celular: +573507339816 </li>                  
+                  <li className="item">Celular: +573507339816 +573242441287  </li>
                   <li className="item">Email: iurislexsas@gmail.com</li>
                 </ul>
               </div>              

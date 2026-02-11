@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vciurislexsas.com.co
+
+# Sitemaps
+Sitemap: https://vciurislexsas.com.co/sitemap.xml
